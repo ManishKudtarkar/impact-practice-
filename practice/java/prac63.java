@@ -1,0 +1,10 @@
+public class prac63 {
+    public static void main(String[] args){
+        int arr[] ={ 1, 2, 3, 4, 5 };
+        int n = arr.length;
+
+        for (int i = n - 3;i >= 0 ; i--){
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
